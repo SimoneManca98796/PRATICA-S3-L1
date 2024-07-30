@@ -20,6 +20,8 @@ function addClassToTitle(classe) {
   title.classList.add(classe);
 }
 addClassToTitle("myHeading");
+
+/* myH1.classList.add('myHeading') */
 console.log(addClassToTitle);
 // ------
 // 3) ESERCIZIO 3:

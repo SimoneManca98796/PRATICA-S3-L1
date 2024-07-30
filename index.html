@@ -34,9 +34,8 @@
   </head>
 
   <body>
-    <button onclick="makeH1Invisible()">Clicca Qui!</button>
     <div>
-      <h1>Questo è il titolo della pagina</h1>
+      <h1 onclick="makeItClickable()">Questo è il titolo della pagina</h1>
       <h2>Questo è il sottotitolo della pagina</h2>
     </div>
 
@@ -73,7 +72,7 @@
 
     <div id="tableArea"></div>
 
-    <footer>
+    <footer onclick="revealFooterLink()">
       <h3>
         DOM Manipulation is super
         <a
@@ -82,7 +81,8 @@
         >
       </h3>
     </footer>
-    <script src="./script.js">
+    <!-- <script src="./script.js"> -->
+    <script src="./esercizi.js">
                     /* ESERCIZIO 1
                      Scrivi una funzione per cambiare il titolo della pagina in qualcos'altro
                   */
@@ -112,7 +112,7 @@
                      Scrivi una funzione che cambi il testo dei p figli di un div
                     */
 
-                    const changePcontent = function () {};
+
 
                     /* const changePcontent = function () {
                        const paragraph = document.querySelectorAll(".esercizio p")[0];
